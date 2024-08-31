@@ -83,6 +83,8 @@ that every method has at least two unit tests, positives and negative test cases
 including edge situations can be covered.
 pom.xml: Includes necessary configuration, such as junit.
 readme.md: Project documentation and tutorials.
+target/Tic-Tac-Toe-1.0-SNAPSHOT.jar: The executable .jar file automatically created in the deployment session, for 
+CI/CD. 
 
     ``` Tic-Tac-Toe
     |---- src
@@ -94,6 +96,8 @@ readme.md: Project documentation and tutorials.
     |        |        |---- BoardTest.java
     |        |        |---- PlayerTest.java
     |        |        |---- TicTacToeTest.java
+    |---- target
+    |----    |---- Tic-Tac-Toe-1.0-SNAPSHOT.jar
     |---- pom.xml
     |---- readme.md
     ```
